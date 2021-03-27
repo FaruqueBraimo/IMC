@@ -200,7 +200,8 @@ public class Tela extends javax.swing.JFrame {
 			double imc = pesoEmQuilograma / (alturaEmMetros * alturaEmMetros);
 			
 			if( imc <=  18.5 ){
-		         msg="Estas muito magro e desnutrido. Coma mais";}
+	
+                            msg="Estas muito magro e desnutrido. Coma mais";}
 			else if(imc >= 18.5 && imc <=  24.9){
 	
                             msg="Seu peso é ideal, continue assim";}
